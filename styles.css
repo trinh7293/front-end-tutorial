@@ -1,20 +1,34 @@
-h1 {
-	color: blue;
+body {
+	background: url(images/body_bg.gif) repeat left top;
 }
 
-h1.head2:hover {
-	color: red;
-}
-.head4 {
-	color: purple;
-}
-.head5 {
-	color: red;
-}
-.head3 {
-	color: red;
+.head-container {
+	width: 1000px;
+	background-color: #fff;
+	margin: auto
 }
 
-p {
-	/*display: none*/
+.bntop {	
+	background: url(images/banner_top.png) no-repeat;
+	position: relative;
+	height: 174px;
+}
+.logo {
+  background: url(images/logo.png);
+  position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 15px;
+	left: 20px
+}
+.slogan {
+  background: url(images/slogan.png) no-repeat;
+	position: absolute;
+	width: 526px;
+	height: 113px;
+	top: 15px;
+	left: 136px
+}
+.nav {
+
 }
